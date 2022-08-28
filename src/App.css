@@ -1,0 +1,58 @@
+.home-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(49, 46, 43);
+}
+
+
+.board-grid {
+  position: relative;
+  display: grid;
+  column-gap: 0px; 
+  row-gap: 0px;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.light-text {
+  color: rgb(239, 255, 214);
+}
+
+.dark-text {
+  color: rgb(83, 129, 69);
+}
+
+.light {
+  background-color: rgb(239, 255, 214);
+  
+}
+
+.dark {
+  background-color: rgb(83, 129, 69);
+
+}
+
+.square {
+  width: var(--width);
+  height: var(--height);
+}
+
+.row-index {
+  position: absolute;
+  font-size: 0.8rem;
+  top: 5px;
+  right: 0px;
+}
+
+.column-index {
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 0px;
+
+}
+
+.sq-33 {
+  grid-row-start: 3;
+  grid-column-start: 3;
+}

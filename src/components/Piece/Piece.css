@@ -1,0 +1,339 @@
+:root {
+    --width: 60px;
+    --height: 60px;
+}
+
+.piece {
+    position: absolute;
+    background-size: 100%;
+    width: var(--width);
+    height: var(--height);
+    overflow: hidden;
+    
+}
+
+.grab {
+    cursor: grab;
+}
+
+.light-up {
+    background-color: rgba(247, 247, 0,0.4);
+}
+
+.br {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/br.png');
+}
+.bn {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/bn.png');
+}
+.bb {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/bb.png');
+}
+.bq {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/bq.png');
+}
+.bk {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/bk.png');
+}
+.bp {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/bp.png');
+}
+
+.wr {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/wr.png');
+}
+.wn {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/wn.png');
+}
+.wb {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/wb.png');
+}
+.wq {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/wq.png');
+}
+.wk {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/wk.png');
+}
+.wp {
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/wp.png');
+}
+
+
+.sq-11 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+.sq-21 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+}
+
+.sq-31 {
+    grid-row-start: 3;
+    grid-column-start: 1;
+}
+.sq-41 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+}
+.sq-51 {
+    grid-row-start: 5;
+    grid-column-start: 1;
+}
+.sq-61 {
+    grid-row-start: 6;
+    grid-column-start: 1;
+}
+.sq-71 {
+    grid-row-start: 7;
+    grid-column-start: 1;
+}
+.sq-81 {
+    grid-row-start: 8;
+    grid-column-start: 1;
+}
+
+
+.sq-12 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+.sq-22 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.sq-32 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+.sq-42 {
+    grid-row-start: 4;
+    grid-column-start: 2;
+}
+.sq-52 {
+    grid-row-start: 5;
+    grid-column-start: 2;
+}
+.sq-62 {
+    grid-row-start: 6;
+    grid-column-start: 2;
+}
+.sq-72 {
+    grid-row-start: 7;
+    grid-column-start: 2
+}
+.sq-82{
+    grid-row-start: 8;
+    grid-column-start: 2;
+}
+
+
+.sq-13 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
+.sq-23 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+.sq-33 {
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+.sq-43 {
+    grid-row-start: 4;
+    grid-column-start: 3;
+}
+.sq-53 {
+    grid-row-start: 5;
+    grid-column-start: 3;
+}
+.sq-63 {
+    grid-row-start: 6;
+    grid-column-start: 3;
+}
+.sq-73 {
+    grid-row-start: 7;
+    grid-column-start: 3;
+}
+.sq-83 {
+    grid-row-start: 8;
+    grid-column-start: 3;
+}
+
+
+.sq-14 {
+    grid-row-start: 1;
+    grid-column-start: 4;
+}
+.sq-24 {
+    grid-row-start: 2;
+    grid-column-start: 4;
+}
+
+.sq-34 {
+    grid-row-start: 3;
+    grid-column-start: 4;
+}
+.sq-44 {
+    grid-row-start: 4;
+    grid-column-start: 4;
+}
+.sq-54 {
+    grid-row-start: 5;
+    grid-column-start: 4;
+}
+.sq-64 {
+    grid-row-start: 6;
+    grid-column-start: 4;
+}
+.sq-74 {
+    grid-row-start: 7;
+    grid-column-start: 4;
+}
+.sq-84 {
+    grid-row-start: 8;
+    grid-column-start: 4;
+}
+
+
+.sq-15{
+    grid-row-start: 1;
+    grid-column-start: 5;
+}
+.sq-25 {
+    grid-row-start: 2;
+    grid-column-start: 5;
+}
+
+.sq-35 {
+    grid-row-start: 3;
+    grid-column-start: 5;
+}
+.sq-45 {
+    grid-row-start: 4;
+    grid-column-start: 5;
+}
+.sq-55 {
+    grid-row-start: 5;
+    grid-column-start: 5;
+}
+.sq-65 {
+    grid-row-start: 6;
+    grid-column-start: 5;
+}
+.sq-75 {
+    grid-row-start: 7;
+    grid-column-start: 5;
+}
+.sq-85 {
+    grid-row-start: 8;
+    grid-column-start: 5;
+}
+
+
+.sq-16 {
+    grid-row-start: 1;
+    grid-column-start: 6;
+}
+.sq-26 {
+    grid-row-start: 2;
+    grid-column-start: 6;
+}
+
+.sq-36 {
+    grid-row-start: 3;
+    grid-column-start: 6;
+}
+.sq-46 {
+    grid-row-start: 4;
+    grid-column-start: 6;
+}
+.sq-56 {
+    grid-row-start: 5;
+    grid-column-start: 6;
+}
+.sq-66 {
+    grid-row-start: 6;
+    grid-column-start: 6;
+}
+.sq-76 {
+    grid-row-start: 7;
+    grid-column-start: 6;
+}
+.sq-86 {
+    grid-row-start: 8;
+    grid-column-start: 6;
+}
+
+
+.sq-17 {
+    grid-row-start: 1;
+    grid-column-start: 7;
+}
+.sq-27 {
+    grid-row-start: 2;
+    grid-column-start: 7;
+}
+
+.sq-37 {
+    grid-row-start: 3;
+    grid-column-start: 7;
+}
+.sq-47 {
+    grid-row-start: 4;
+    grid-column-start: 7;
+}
+.sq-57 {
+    grid-row-start: 5;
+    grid-column-start: 7;
+}
+.sq-67 {
+    grid-row-start: 6;
+    grid-column-start: 7;
+}
+.sq-77 {
+    grid-row-start: 7;
+    grid-column-start: 7;
+}
+.sq-87 {
+    grid-row-start: 8;
+    grid-column-start: 7;
+}
+
+
+.sq-18 {
+    grid-row-start: 1;
+    grid-column-start: 8;
+}
+.sq-28 {
+    grid-row-start: 2;
+    grid-column-start: 8;
+}
+
+.sq-38 {
+    grid-row-start: 3;
+    grid-column-start: 8;
+}
+.sq-48 {
+    grid-row-start: 4;
+    grid-column-start: 8;
+}
+.sq-58 {
+    grid-row-start: 5;
+    grid-column-start: 8;
+}
+.sq-68 {
+    grid-row-start: 6;
+    grid-column-start: 8;
+}
+.sq-78 {
+    grid-row-start: 7;
+    grid-column-start: 8;
+}
+.sq-88 {
+    grid-row-start: 8;
+    grid-column-start: 8;
+}

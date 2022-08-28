@@ -1,0 +1,106 @@
+.result-popup {
+    position: absolute;
+    left: 20%;
+    top: 20px;
+
+    width: 300px;
+    height: calc(100% + 25px);
+    box-shadow: 7px 0px 15px 6px #214B22;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+}
+
+.result-title {
+    position: relative;
+    z-index: 2;
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 40px;
+}
+
+.result-subtitle {
+    position: relative;
+    z-index: 2;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.profile-photos-row {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-photo-black {
+    height: 80px;
+    width: 80px;
+    flex: 1;
+    background-size: 100%;
+    border: 2px solid rgb(118, 182, 98);
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/bn.png');
+}
+
+.profile-photo-white {
+    height: 80px;
+    width: 80px;
+    flex: 1;
+    background-size: 100%;
+    border: 2px solid rgb(118, 182, 98);
+    background-image: url('https://images.chesscomfiles.com/chess-themes/pieces/classic/150/wk.png');
+}
+
+.container-play-again {
+    position: absolute;
+    bottom: 50px;
+    left: 22.5%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    border: none;
+}
+
+.btn-play-again {
+    background-color: rgb(83, 129, 69);
+    padding: 10px 30px;
+    border-radius: 12px;
+    color: white;
+    outline: none;
+}
+
+.btn-play-again:hover {
+    cursor: pointer;
+    background-color: rgba(83, 129, 69, .9);
+}
+.btn-play-again:active {
+    background-color: rgba(83, 129, 69, .7);
+}
+
+.green-circle {
+    position: absolute;
+    z-index: 1;
+    top: -15%;
+    left: -10%;
+    border-radius: 50%;
+    height: 200px;
+    width: 400px;
+    background-color: rgb(83, 129, 69);
+    clip: rect(75px,330px,200px,30px);
+
+}
+
+.score-green {
+    color: rgb(83, 129, 69);
+    display: flex;
+    justify-content: center;
+}
